@@ -3,7 +3,15 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="h-screen flex flex-col justify-between px-8">
+    <div
+      style={{
+        backgroundImage: `url('/image/background_nut.jpg') `,
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "cover",
+        backgroundPosition: "center"
+      }}
+      className="h-screen flex flex-col justify-between px-8"
+    >
       <div>
         <div className="flex flex-row justify-between pt-10 ">
           <div className="flex font-bold">
