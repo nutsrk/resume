@@ -10,16 +10,16 @@ const Resume = () => {
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
-      className="h-screen flex flex-col justify-between px-8"
+      className="h-screen px-8"
     >
-      <NavBar></NavBar>
-      <div className="w-full h-full flex flex-col bg-red-100">
-        <div className="flex pt-16 pl-32">
+      
+      <div className="self-center pt-40">
+        <div className="flex pl-28">
           <h1 className="text-7xl">ABOUT</h1>
           <h1 className="text-7xl pl-5 text-yellow-500">ME</h1>
         </div>
         <h1 className="text-2xl pl-32">Safety officer from BKK</h1>
-        <div className="self-center flex flex-row">
+        <div className=" flex flex-row mt-16 pl-72 ">
           <img className="w-52 " src="/image/resume.jpg" />
           <div className="flex flex-col pl-5">
             <div>
@@ -36,39 +36,45 @@ const Resume = () => {
             </div>
             <div className="flex flex-row">
               <div className="pr-16">
-                <div className="flex">
-                  <h1 className="text-yellow-500 pr-3">Age</h1>
-                  <h1>23</h1>
-                </div>
-                <div className="flex">
-                  <h1 className="text-yellow-500 pr-3">Religion</h1>
-                  <h1>Buddhism</h1>
-                </div>
-                <div className="flex">
-                  <h1 className="text-yellow-500 pr-3">Pnone</h1>
-                  <h1>092-7725330</h1>
-                </div>
+                <InformationLine title="Age" detail="23"></InformationLine>
+                <InformationLine
+                  title="Religion"
+                  detail="Buddhism"
+                ></InformationLine>
+                <InformationLine
+                  title="Phone"
+                  detail="092-7725330"
+                ></InformationLine>
               </div>
               <div>
-                <div className="flex">
-                  <h1 className="text-yellow-500 pr-3">Resident </h1>
-                  <h1>BKK,Thailand</h1>
-                </div>
-                <div className="flex">
-                  <h1 className="text-yellow-500 pr-3">Address </h1>
-                  <h1>Phahon Yothin47, Ladyao, Chatuchak, Bangkok 10900</h1>
-                </div>
-                <div className="flex">
-                  <h1 className="text-yellow-500 pr-3">Email </h1>
-                  <h1>Sirirak.b5963898@gmail.com</h1>
-                </div>
+                <InformationLine
+                  title="Resident"
+                  detail="BKK, Thailand"
+                ></InformationLine>
+                <InformationLine
+                  title="Address"
+                  detail="Phahon Yothin47, Ladyao, Chatuchak, Bangkok 10900"
+                ></InformationLine>
+                <InformationLine
+                  title="Email"
+                  detail="Sirirak.b5963898@gmail.com"
+                ></InformationLine>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <Footer></Footer>
     </div>
   );
 };
+
+const InformationLine = ({ title, detail }) => {
+  return (
+    <div className="flex">
+      <h1 className="text-yellow-500 pr-3">{title}</h1>
+      <h1>{detail}</h1>
+    </div>
+  );
+};
+
 export default Resume;

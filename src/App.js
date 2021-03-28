@@ -1,16 +1,24 @@
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import "./App.css";
+import Footer from "./components/Footer";
+import NavBar from "./components/NavBar";
 import Home from "./pages/Home";
 import Resume from "./pages/Resume";
 function App() {
   return (
-    <BrowserRouter>
-      <Switch>
-        <Route exact path="/" component={Home} />
-        <Route exact path="/home" component={Home} />
-        <Route exact path="/resume" component={Resume} />
-      </Switch>
-    </BrowserRouter>
+    <>
+      <div className="w-full h-screen  absolute flex flex-col justify-between px-8">
+        <NavBar></NavBar>
+        <Footer></Footer>
+      </div>
+      <BrowserRouter>
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/home" component={Home} />
+          <Route exact path="/resume" component={Resume} />
+        </Switch>
+      </BrowserRouter>
+    </>
   );
 }
 
