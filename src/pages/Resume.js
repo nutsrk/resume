@@ -35,28 +35,34 @@ const Resume = () => {
               </div>
             </div>
             <div className="flex flex-row">
-            <div className="pr-16">
-              <div className="flex">
-                <h1 className="text-yellow-500 pr-3">Age</h1>
-                <h1>23</h1>
+              <div className="pr-16">
+                <div className="flex">
+                  <h1 className="text-yellow-500 pr-3">Age</h1>
+                  <h1>23</h1>
+                </div>
+                <div className="flex">
+                  <h1 className="text-yellow-500 pr-3">Religion</h1>
+                  <h1>Buddhism</h1>
+                </div>
+                <div className="flex">
+                  <h1 className="text-yellow-500 pr-3">Pnone</h1>
+                  <h1>092-7725330</h1>
+                </div>
               </div>
-              <div className="flex">
-                <h1 className="text-yellow-500 pr-3">Religion</h1>
-                <h1>Buddhism</h1>
+              <div>
+                <div className="flex">
+                  <h1 className="text-yellow-500 pr-3">Resident </h1>
+                  <h1>BKK,Thailand</h1>
+                </div>
+                <div className="flex">
+                  <h1 className="text-yellow-500 pr-3">Address </h1>
+                  <h1>Phahon Yothin47, Ladyao, Chatuchak, Bangkok 10900</h1>
+                </div>
+                <div className="flex">
+                  <h1 className="text-yellow-500 pr-3">Email </h1>
+                  <h1>Sirirak.b5963898@gmail.com</h1>
+                </div>
               </div>
-              <div className="flex">
-                <h1 className="text-yellow-500 pr-3">Pnone</h1>
-                <h1>092-7725330</h1>
-              </div>
-            </div>
-            <div>
-              <h1 className="text-yellow-500 pr-3">Resident </h1>
-              <h1>BKK,Thailand</h1>
-              <h1 className="text-yellow-500 pr-3">Address </h1>
-              <h1>Phahon Yothin47, Ladyao, Chatuchak, Bangkok 10900</h1>
-              <h1 className="text-yellow-500 pr-3">Email  </h1>
-              <h1>Sirirak.b5963898@gmail.com</h1>
-            </div>
             </div>
           </div>
         </div>
