@@ -13,17 +13,17 @@ const Resume = () => {
       className="h-screen flex flex-col justify-between px-8"
     >
       <NavBar></NavBar>
-      <div className="w-full flex flex-col bg-red-100">
-        <div className="flex ">
+      <div className="w-full h-full flex flex-col bg-red-100">
+        <div className="flex pt-16 pl-32">
           <h1 className="text-7xl">ABOUT</h1>
           <h1 className="text-7xl pl-5 text-yellow-500">ME</h1>
         </div>
-        <h1 className="text-2xl">Safety officer from BKK</h1>
+        <h1 className="text-2xl pl-32">Safety officer from BKK</h1>
         <div className="self-center flex flex-row">
           <img className="w-52 " src="/image/resume.jpg" />
           <div className="flex flex-col pl-5">
             <div>
-              <p className="w-1/3 block  ">
+              <p className="w-4/6 block  ">
                 Hello I,m Sirirak Witoon web-developer based on Paris.
                 <span className="block">
                   I have rich experience in web site design & building and
