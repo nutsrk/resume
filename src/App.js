@@ -7,6 +7,7 @@ import Resume from "./pages/Resume";
 import Education from "./pages/Education";
 import Skills from "./pages/Skills";
 import Training from "./pages/Training";
+import Work from "./pages/Work";
 function App() {
   return (
     <>
@@ -22,6 +23,7 @@ function App() {
           <Route exact path="/education" component={Education} />
           <Route exact path="/skills" component={Skills} />
           <Route exact path="/training" component={Training} />
+          <Route exact path="/work" component={Work} />
         </Switch>
       </BrowserRouter>
     </>
