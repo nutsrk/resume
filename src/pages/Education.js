@@ -46,7 +46,7 @@ export default Education;
 
 const EducationInfor = ({ name, year, university, gpa }) => {
   return (
-    <div className="pl-28 pt-28">
+    <div className="pl-28 pt-24">
       <div className="flex font-bold">
         <h1 className="pt-3.5 text-xl">{name}</h1>
         <h1 className="pl-12 text-yellow-500 text-4xl">{year}</h1>
@@ -58,7 +58,7 @@ const EducationInfor = ({ name, year, university, gpa }) => {
 };
 const EducationInfor2 = ({ name, year, university, gpa }) => {
   return (
-    <div className="pl-28 pt-28">
+    <div className="pl-28 pt-24">
       <div className="flex font-bold">
         <h1 className=" text-yellow-500 text-4xl">{year}</h1>
         <h1 className="pt-3.5 pl-14 text-xl ">{name}</h1>
