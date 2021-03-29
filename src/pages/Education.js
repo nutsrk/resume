@@ -10,14 +10,15 @@ const Education = () => {
       className="h-screen px-8"
     >
       <div className="self-center pt-40">
-        <div className="pl-28">
+        <div className="pl-28 divide-y divide-gray-400 w-10">
           <h1 className="text-7xl ">Education</h1>
           <h1 className="text-2xl pl-44 text-yellow-500 font-medium">
             background
           </h1>
         </div>
       </div>
-      <div className="flex flex-row">
+      
+      <div className="flex flex-row ">
         <EducationInfor
           name="Occupational Health and Safety"
           year="2016"
@@ -40,6 +41,7 @@ const Education = () => {
         </div>
       </div>
     </div>
+    
   );
 };
 export default Education;
