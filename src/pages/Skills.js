@@ -17,9 +17,25 @@ const Skills = () => {
               Skills
             </h1>
             <h1 className="pt-3.5">Communication</h1>
+            <div className="flex pt-1.5">
+                <div className="w-44 h-2 bg-yellow-500"></div>
+                <div className="w-12 h-2 bg-gray-300"></div>
+            </div>
             <h1 className="pt-3.5">Teamwork</h1>
+            <div className="flex pt-1.5">
+                <div className="w-48 h-2 bg-yellow-500"></div>
+                <div className="w-8 h-2 bg-gray-300"></div>
+            </div>
             <h1 className="pt-3.5">Enthusiastic</h1>
+            <div className="flex pt-1.5">
+                <div className="w-52 h-2 bg-yellow-500"></div>
+                <div className="h-2 bg-gray-300"></div>
+            </div>
             <h1 className="pt-3.5">Interpersonal</h1>
+            <div className="flex pt-1.5">
+                <div className="w-44 h-2 bg-yellow-500"></div>
+                <div className="w-12 h-2 bg-gray-300"></div>
+            </div>
           </div>
         </div>
       </div>
