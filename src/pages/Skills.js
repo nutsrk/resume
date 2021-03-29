@@ -14,7 +14,7 @@ const Skills = () => {
           <div className="pl-56">
               <div className="flex flex-row">
               <div>
-            <h1 className="text-4xl ">Personal</h1>
+            <h1 className="text-4xl .tracking-wide">Personal</h1>
             <h1 className="text-5xl pl-32 text-yellow-500 font-medium">
               Skills
             </h1>
@@ -40,7 +40,7 @@ const Skills = () => {
             </div>
             </div>
             <div className="pl-40">
-              <h1 className="text-4xl ">Professtional</h1>
+              <h1 className="text-4xl .tracking-wide">Professtional</h1>
               <h1 className="text-5xl pl-32 text-yellow-500 font-medium">
                 Skills
               </h1>

@@ -6,6 +6,7 @@ import Home from "./pages/Home";
 import Resume from "./pages/Resume";
 import Education from "./pages/Education";
 import Skills from "./pages/Skills";
+import Training from "./pages/Training";
 function App() {
   return (
     <>
@@ -20,6 +21,7 @@ function App() {
           <Route exact path="/resume" component={Resume} />
           <Route exact path="/education" component={Education} />
           <Route exact path="/skills" component={Skills} />
+          <Route exact path="/training" component={Training} />
         </Switch>
       </BrowserRouter>
     </>
