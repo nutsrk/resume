@@ -8,6 +8,7 @@ import Education from "./pages/Education";
 import Skills from "./pages/Skills";
 import Training from "./pages/Training";
 import Work from "./pages/Work";
+import Contacts from "./pages/Contacts";
 function App() {
   return (
     <>
@@ -24,6 +25,7 @@ function App() {
           <Route exact path="/skills" component={Skills} />
           <Route exact path="/training" component={Training} />
           <Route exact path="/work" component={Work} />
+          <Route exact path="/contacts" component={Contacts} />
         </Switch>
       </BrowserRouter>
     </>

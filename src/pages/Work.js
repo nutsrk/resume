@@ -17,12 +17,12 @@ const Work = () => {
               Experience
             </h1>
           </div>
-          <div className="flex pl-28 pt-8 font-semibold text-2xl">
+          <div className="flex pl-36 pt-8 font-semibold text-2xl">
             <h1>Internship</h1>
             <h1 className="text-yellow-500 pl-2 ">(Safety Officer)</h1>
           </div>
           <div className="flex flex-row ">
-          <div className="pl-28 pt-3.5">
+          <div className="pl-36 pt-3.5">
             <h1>Fujikura Automotive (Thailand) Ltd.</h1>
             <h1 className="text-yellow-500">Nov 2019 to Feb 2020</h1>
           </div>
