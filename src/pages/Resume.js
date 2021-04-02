@@ -12,7 +12,6 @@ const Resume = () => {
       }}
       className="h-screen px-8"
     >
-      
       <div className="self-center pt-40">
         <div className="flex pl-28">
           <h1 className="text-7xl">ABOUT</h1>
@@ -31,7 +30,7 @@ const Resume = () => {
                 </span>
               </p>
               <div className="w-36 h-6 bg-yellow-500">
-                <h1 className="text-white text-center"> Dowload Resume</h1>
+                <button className="text-white px-1.5">Dowload Resume</button>
               </div>
             </div>
             <div className="flex flex-row">
@@ -73,7 +72,9 @@ const InformationLine = ({ title, detail }) => {
     <div className="flex">
       <h1 className="text-yellow-500 pr-3">{title}</h1>
       <h1>{detail}</h1>
+      
     </div>
+    
   );
 };
 
