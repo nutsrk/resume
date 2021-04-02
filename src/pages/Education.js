@@ -69,6 +69,7 @@ const EducationInfor2 = ({ name, year, university, gpa }) => {
       <h1 className="pt-2 font-normal">{university}</h1>
       <h1 className="text-yellow-500 pt-2 font-medium">{gpa}</h1>
       </div>
+      
     </div>
   );
 };

@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <div className="pb-10 flex flex-row justify-between items-end">
+    <div className="pb-10 flex flex-row justify-between items-end pointer-events-auto">
       <div className="flex flex-col">
         <div className="flex">
           <h1 className="font-bold">Email </h1>

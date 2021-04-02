@@ -12,8 +12,8 @@ import Contacts from "./pages/Contacts";
 function App() {
   return (
     <>
-      <div className="w-full h-screen  absolute flex flex-col justify-between px-8">
-        <NavBar></NavBar>
+      <div className="w-full h-screen  absolute flex flex-col justify-between px-8 pointer-events-none">
+        <NavBar ></NavBar>
         <Footer></Footer>
       </div>
       <BrowserRouter>
