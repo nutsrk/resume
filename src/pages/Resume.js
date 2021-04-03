@@ -29,12 +29,17 @@ const Resume = () => {
                   customization. Also I am good at html, css, bootstrap.
                 </span>
               </p>
-              <div className="w-36 h-6 bg-yellow-500">
-                <button className="text-white px-1.5">Dowload Resume</button>
+              <div className="pt-3">
+              <a href="https://drive.google.com/file/d/1os8-xI70XGd_n90uaOW7y0zqT7TGOLw8/view?usp=sharing" target="_blank">
+              <button className="text-white px-1.5 bg-yellow-500 rounded " type="submit">
+                Dowload Resume
+              </button>
+              </a>
+              
               </div>
             </div>
-            <div className="flex flex-row">
-              <div className="pr-16">
+            <div className="flex flex-row pt-10">
+              <div className="pr-16 ">
                 <InformationLine title="Age" detail="23"></InformationLine>
                 <InformationLine
                   title="Religion"
@@ -72,9 +77,7 @@ const InformationLine = ({ title, detail }) => {
     <div className="flex">
       <h1 className="text-yellow-500 pr-3">{title}</h1>
       <h1>{detail}</h1>
-      
     </div>
-    
   );
 };
 
