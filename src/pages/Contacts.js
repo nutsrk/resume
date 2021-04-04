@@ -1,6 +1,10 @@
-import react from "react";
-
+import react, { useState } from "react";
+import Modal from "../components/Modal";
 const Contacts = () => {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+  const [showModal, setShowModal] = useState(false);
   return (
     <>
       <div
@@ -81,30 +85,61 @@ const Contacts = () => {
           <div className="pl-60 pt-12">
             <form className="grid grid-cols-1 gap-2">
               <input
+                onChange={(event) => {
+                  const { value } = event.target;
+                  setName(value);
+                }}
+                value={name}
                 name="fullname"
                 type="text"
                 placeholder="Full Name"
                 class="pl-2 w-80 h-10 bg-gray-500 bg-opacity-50 rounded-md  placeholder-white "
               />
               <input
+                onChange={(event) => {
+                  const { value } = event.target;
+                  setEmail(value);
+                }}
+                value={email}
                 name="email"
                 type="email"
                 placeholder="Email"
                 class="pl-2 w-80 h-10 bg-gray-500 bg-opacity-50 rounded-md  placeholder-white"
               />
               <textarea
+                onChange={(event) => {
+                  const { value } = event.target;
+                  setMessage(value);
+                }}
+                value={message}
                 rows={4}
                 name="massage"
                 type="text"
                 placeholder="Your message"
                 class="pl-2 w-80 bg-gray-500 bg-opacity-50 rounded-md  placeholder-white"
               />
-              <button className="bg-yellow-500 w-32 h-8 text-white font-bold rounded-md hover:bg-yellow-400 ">
+              <button
+                onClick={(e) => {
+                  e.preventDefault();
+                  setShowModal(true);
+                }}
+                className="bg-yellow-500 w-32 h-8 text-white font-bold rounded-md hover:bg-yellow-400 "
+              >
                 Send message
               </button>
             </form>
           </div>
         </div>
+        {showModal ? (
+          <Modal
+            onClose={() => {
+              setShowModal(false);
+              setName("");
+              setEmail("");
+              setMessage("");
+            }}
+          ></Modal>
+        ) : null}
       </div>
     </>
   );
