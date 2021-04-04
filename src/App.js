@@ -9,6 +9,7 @@ import Skills from "./pages/Skills";
 import Training from "./pages/Training";
 import Work from "./pages/Work";
 import Contacts from "./pages/Contacts";
+
 function App() {
   return (
     <>
