@@ -13,16 +13,16 @@ const Contacts = () => {
         className="h-screen px-8"
       >
         <div className="self-center pt-40">
-          <div className="pl-28 divide-y divide-gray-400 w-10">
+          <div className="pl-28 divide-y divide-gray-400 w-10 ">
             <h1 className="text-7xl ">Contacts</h1>
             <h1 className="text-2xl pl-48 text-yellow-500 font-medium">
               Information
             </h1>
           </div>
         </div>
-        <div className="flex">
+        <div className="flex ">
           <div className="pl-60 pt-12">
-            <div className="w-72 h-auto bg-gray-200 shadow-2xl rounded-lg bg-gradient-to-t from-gray-300 ">
+            <div className="w-72 h-auto bg-indigo-100 shadow-2xl rounded-lg bg-gradient-to-t from-gray-300 hover:bg-indigo-200">
               <div className="flex pl-5">
                 <div className="w-10 pt-5 ">
                   <svg
@@ -99,7 +99,7 @@ const Contacts = () => {
                 placeholder="Your message"
                 class="pl-2 w-80 bg-gray-500 bg-opacity-50 rounded-md  placeholder-white"
               />
-              <button className="bg-yellow-500 w-32 h-8 text-white font-bold rounded-md ">
+              <button className="bg-yellow-500 w-32 h-8 text-white font-bold rounded-md hover:bg-yellow-400 ">
                 Send message
               </button>
             </form>
@@ -114,7 +114,7 @@ const Contact = ({ title, detail }) => {
   return (
     <div className="">
       <h1 className="font-bold pt-5 ">{title}</h1>
-      <h1 className="pb-5 text-gray-500">{detail}</h1>
+      <h1 className="pb-5 text-gray-500 ">{detail}</h1>
     </div>
   );
 };

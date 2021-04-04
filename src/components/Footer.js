@@ -13,7 +13,7 @@ const Footer = () => {
       </div>
       <div className="flex flex-col items-center">
         <h1 className="transform rotate-90 mb-8 "> Follow me </h1>
-        <div className="w-4">
+        <div className="w-4 ">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -47,7 +47,7 @@ const Footer = () => {
           target="_blank"
           className="w-6 pt-3"
         >
-          <img src="/image/githup.png" className="cursor-pointer" />
+          <img src="/image/githup.png" className="cursor-pointer " />
         </a>
       </div>
     </div>
