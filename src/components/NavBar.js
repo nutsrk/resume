@@ -20,7 +20,7 @@ const NavBar = () => {
         <h1
           onMouseEnter={() => setShowDropdown(true)}
           onMouseLeave={() => setShowDropdown(false)}
-          className="cursor-pointer hover:underline"
+          className="cursor-pointer hover:underline"data-cy="resume"
         >
           Resume
         </h1>
@@ -49,7 +49,7 @@ const NavBar = () => {
           <div class="py-1" role="none">
             <button
               class="block w-full text-left px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
-              
+              data-cy="aboutme"
               onClick={() => {history.push("/resume");
               setShowDropdown(false);}}
             >
@@ -57,7 +57,7 @@ const NavBar = () => {
             </button>
             <button
               class="block w-full text-left px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
-              
+              data-cy="educationButton"
               onClick={() => {history.push("/education");
               setShowDropdown(false);}}
             >

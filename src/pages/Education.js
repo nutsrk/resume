@@ -11,8 +11,8 @@ const Education = () => {
     >
       <div className="self-center pt-40">
         <div className="pl-28 divide-y divide-gray-400 w-10">
-          <h1 className="text-7xl ">Education</h1>
-          <h1 className="text-2xl pl-44 text-yellow-500 font-medium">
+          <h1 className="text-7xl "data-cy="education">Education</h1>
+          <h1 className="text-2xl pl-44 text-yellow-500 font-medium"data-cy="background">
             background
           </h1>
         </div>

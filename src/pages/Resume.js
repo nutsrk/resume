@@ -14,8 +14,8 @@ const Resume = () => {
     >
       <div className="self-center pt-40">
         <div className="flex pl-28">
-          <h1 className="text-7xl">ABOUT</h1>
-          <h1 className="text-7xl pl-5 text-yellow-500">ME</h1>
+          <h1 className="text-7xl" data-cy="about">ABOUT</h1>
+          <h1 className="text-7xl pl-5 text-yellow-500"data-cy="me">ME</h1>
         </div>
         <h1 className="text-2xl pl-32">Safety officer from BKK</h1>
         <div className=" flex flex-row mt-16 pl-72 ">
