@@ -7,8 +7,8 @@ const NavBar = () => {
   return (
     <div className="flex flex-row justify-between pt-10 pointer-events-auto">
       <div className="flex font-bold">
-        <h1 className="text-yellow-500">Sirirak </h1>
-        <h1 className="ml-2">Witoon</h1>
+        <h1 className="text-yellow-500" data-cy="firstname">Sirirak </h1>
+        <h1 className="ml-2 "data-cy="lastname">Witoon</h1>
       </div>
       <div className="grid grid-cols-4 gap-4 font-bold">
         <h1
